@@ -6,13 +6,13 @@
     "strict": false, //TODO Enable all strict type-checking options. it will bring up lot of errors which needs fixing
     "baseUrl": ".",
     "paths": {
-        "*": ["node_modules/*", "test/*"]
+      "*": ["node_modules/*", "test/*"]
     },
     "typeRoots": ["../node_modules/@types", "node_modules/@types", "src/types"],
     "noImplicitReturns": false, // Report error when not all code paths in function return a value//TODO make fix when time there
     "noUnusedLocals": false, // Report errors on unused local variables //TODO make fix when time there
     "noUnusedParameters": false // Report errors on unused parameters //TODO make fix when time there
-},
-"include": ["src/**/*.ts", "src/*.ts", ".env", ".env.*"],
-"exclude": ["node_modules"]
+  },
+  "include": ["src/**/*.ts", "src/*.ts", ".env", ".env.*"],
+  "exclude": ["node_modules"]
 }

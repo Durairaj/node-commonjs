@@ -48,6 +48,11 @@
     "pretty": true // Stylize errors and messages using color and context
   },
   "exclude": ["node_modules", "dist"], // Specifies an array of filenames or patterns that should be skipped when resolving include
-  "compileOnSave": false,  // Compile on save
-"include": ["src/**/*.ts", "declarations/**/*.ts", "test/**/*.ts", "mock/**.ts"],
+  "compileOnSave": false, // Compile on save
+  "include": [
+    "src/**/*.ts",
+    "declarations/**/*.ts",
+    "test/**/*.ts",
+    "mock/**.ts"
+  ]
 }
